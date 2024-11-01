@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "2c114caa-fe7a-49b8-94bd-3a15b2414522",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27017712"
+	},
+	"item": [
+		{
+			"name": "https://raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json?location=moscow&description=java",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json?location=moscow&description=java",
+					"protocol": "https",
+					"host": [
+						"raw",
+						"githubusercontent",
+						"com"
+					],
+					"path": [
+						"skillbox-java",
+						"JavaEE",
+						"main",
+						"positions.json"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "moscow"
+						},
+						{
+							"key": "description",
+							"value": "java"
+						}
+					]
+				},
+				"description": "Test collection"
+			},
+			"response": []
+		},
+		{
+			"name": "https://raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json?location=moscow&description=python",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json?location=moscow&description=python",
+					"protocol": "https",
+					"host": [
+						"raw",
+						"githubusercontent",
+						"com"
+					],
+					"path": [
+						"skillbox-java",
+						"JavaEE",
+						"main",
+						"positions.json"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "moscow"
+						},
+						{
+							"key": "description",
+							"value": "python"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json?location=moscow&description=ruby",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json?location=moscow&description=ruby",
+					"protocol": "https",
+					"host": [
+						"raw",
+						"githubusercontent",
+						"com"
+					],
+					"path": [
+						"skillbox-java",
+						"JavaEE",
+						"main",
+						"positions.json"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "moscow"
+						},
+						{
+							"key": "description",
+							"value": "ruby"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseurl",
+			"value": "raw.githubusercontent.com/skillbox-java/JavaEE/main/positions.json",
+			"type": "string"
+		}
+	]
+}
